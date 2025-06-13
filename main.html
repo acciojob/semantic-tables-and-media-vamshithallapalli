@@ -1,44 +1,55 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>Semantic Table and Media</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
+
 	<table>
 		<thead>
-		<tr>	<th>Roll numbers</th>
+			<tr>
+				<th>Roll numbers</th>
 				<th>Names</th>
-		</tr>
+			</tr>
 		</thead>
 		<tbody>
-			<tr><td>21165065</td>
-			<td>Vamshi</td></tr>
-			
-			<tr><td>21165043</td>
-			<td>Madan Mohan</td></tr>
-			
-			<tr><td>21164012</td>
-			<td>Rajesh</td></tr>
+			<tr>
+				<td>21165065</td>
+				<td>Vamshi</td>
+			</tr>
+			<tr>
+				<td>21165043</td>
+				<td>Madan Mohan</td>
+			</tr>
+			<tr>
+				<td>21164012</td>
+				<td>Rajesh</td>
+			</tr>
 		</tbody>
 	</table>
-	<heading>List of medias</heading>
+
+	<h2>List of medias</h2>
 
 	<ol>
-		<li><img src="https://picsum.photos/id/123/200/300"></li>
 		<li>
-			<video controls><source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"></video>
+			<img src="https://picsum.photos/id/123/200/300" alt="Random image from picsum.photos">
 		</li>
 		<li>
-			<audio controls><source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg"></audio>
+			<video controls>
+				<source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+		</li>
+		<li>
+			<audio controls>
+				<source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+				Your browser does not support the audio element.
+			</audio>
 		</li>
 	</ol>
-    <script type="text/javascript" src="./script.js">
-</script>
+
+	<script type="text/javascript" src="./script.js"></script>
 
 </body>
-
 </html>
